@@ -1,6 +1,6 @@
 {
   "name": "simple-summary",
-  "version": "0.1.0",
+  "version": "0.1.1",
   "description": "Summarize a block of text; nothing more; nothing less. This module allows for a simple require of a library to do text summarization on a string. Can include a string with multiple paragraphs.",
   "main": "index.js",
   "directories": {
