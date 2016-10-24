@@ -1,0 +1,52 @@
+{
+  "name": "simple-summary",
+  "version": "0.1.0",
+  "description": "Summarize a block of text; nothing more; nothing less. This module allows for a simple require of a library to do text summarization on a string. Can include a string with multiple paragraphs.",
+  "main": "index.js",
+  "directories": {
+    "example": "examples"
+  },
+  "dependencies": {
+    "lodash": "^4.16.4",
+    "mathjs": "^3.6.0",
+    "natural": "^0.4.0",
+    "nlp_compromise": "^6.5.3"
+  },
+  "devDependencies": {
+    "eslint": "^3.8.1",
+    "eslint-config-strongloop": "^2.1.0"
+  },
+  "scripts": {
+    "pretest": "eslint --ignore-path .gitignore ./"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/pthieu/simple-summary.git"
+  },
+  "keywords": [
+    "summary",
+    "summarize",
+    "summarizer",
+    "summarization",
+    "text",
+    "text summary",
+    "text summarization",
+    "string",
+    "shortener",
+    "algorithm",
+    "nlp",
+    "natural",
+    "language",
+    "processing",
+    "lex",
+    "simple",
+    "simple summary",
+    "simple summarize"
+  ],
+  "author": "Phong Thieu <pthieu@gmail.com> (http://phongt.com)",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/pthieu/simple-summary/issues"
+  },
+  "homepage": "https://github.com/pthieu/simple-summary#readme"
+}
