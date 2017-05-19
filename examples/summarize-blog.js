@@ -6,7 +6,7 @@ var path = require('path');
 var summarize = require('../index');
 
 var text = fs.readFileSync(path.resolve(__dirname, '..', 'data',
-  'blog-example.txt'), 'utf-8');
+  'wiki-hp.txt'), 'utf-8');
 
 var summary = summarize(text);
 console.log(summary);
